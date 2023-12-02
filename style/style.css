@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #e6e6e6;
+    font-size: 16px;
+}
+#topo{
+    background-color: rgb(61, 78, 94);
+    padding: 1em;
+    margin-top: 1em;
+    text-align: center;
+    width: 100%;
+}
+#logo, #menu{
+    padding: 0.5em;
+    
+}
+a{
+    text-decoration: none;
+}
+#menu a:hover{
+    background-color: white;
+    color: black;
+    border-radius: 5px;
+}
+a:link, a:visited{
+    font-size: 20px;
+    color: rgb(175, 174, 172);
+    padding: 8px 12px;
+}
+#logo h1{
+    font-size: 2.5em;
+    color: #e4e4e4;
+}
+.branco{
+    color: rgb(31, 23, 70);
+}
+#principal{
+    width: 90%;
+    max-width: 940px;
+    margin: 0 auto;
+}
+#postagens, #lateral{
+    background: #cac4c4;
+}
+#postagens{
+    width: 70%;
+    float: left;
+    padding: 10px;
+    transition: opacity 0.9s ease;
+}
+#postagens h2{
+    color: rgb(31, 23, 70);
+}#postagens span{
+    color: rgb(255, 255, 255);
+}
+#postagens img{
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#postagens img:hover {
+    transform: scale(1.3);
+    box-shadow: 0 0 10000px rgba(0, 0, 0, 0.5);
+}
+#postagens p{
+    font-size: 18px;
+    font-family: fantasy;
+    color: #070606;
+    text-align: justify;
+}
+#lateral{
+    width: 26%;
+    float: right;
+    text-align: justify;
+    word-spacing: -0.1em;
+}
+#lateral p{
+    padding: 0.2em;
+    word-spacing: -0.1em;
+    font-size: 18px;
+}
+#lateraltext, #lateraltext h4{
+    text-align: justify;
+    margin-top: 1vw;
+    width: 240px;
+    float: right;
+    margin-bottom: 1vw;
+    word-spacing: -0.1em;
+    font-size: 18px;
+}
+#lateral img{
+    max-width: 100%;
+    height: auto;
+    margin-left: 1em;
+    
+}
+#rodape{
+    background-color: rgb(61, 78, 94);
+    clear: both;
+    text-align: center;
+    color: aqua;
+    padding: 20px;
+}
